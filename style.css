@@ -1,0 +1,52 @@
+body{
+    background-color: #00183a;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadro{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recuadro{
+    width: 200px;
+    height: 300px;
+    background-color: black;
+    margin: 20px;
+    border: solid white 1px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blanchedalmond;
+    
+}
+
+.sub_recuadro{
+    text-align: center;
+}
+
+.img-weather{
+    width: 100px;
+    height: 100px;
+}
+
+.time{
+    margin: auto;
+    text-align: center;
+}
+
+.temperatura{
+    font-size: 2rem;
+    margin: auto;
+}
